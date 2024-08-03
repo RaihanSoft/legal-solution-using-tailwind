@@ -715,6 +715,21 @@ video {
   clear: none;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-\[50px\] {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.my-\[40px\] {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -828,6 +843,10 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.max-w-\[1170px\] {
+  max-width: 1170px;
 }
 
 .flex-shrink {
@@ -1164,6 +1183,10 @@ video {
   grid-auto-flow: column dense;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1346,6 +1369,18 @@ video {
 
 .justify-items-stretch {
   justify-items: stretch;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-\[37px\] {
+  gap: 37px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1664,6 +1699,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-\[8px\] {
+  border-radius: 8px;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1730,6 +1769,10 @@ video {
   border-width: 1px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-x {
   border-left-width: 1px;
   border-right-width: 1px;
@@ -1791,6 +1834,11 @@ video {
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#B68C5A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(182 140 90 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -1918,6 +1966,16 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1974,13 +2032,20 @@ video {
   vertical-align: super;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-\[Poppins\] {
+  font-family: Poppins;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-\[600\] {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -2061,6 +2126,15 @@ video {
 }
 
 .text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#FFFFFF\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
