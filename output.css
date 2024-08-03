@@ -1702,10 +1702,6 @@ video {
   border-radius: 8px;
 }
 
-.rounded-none {
-  border-radius: 0px;
-}
-
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1774,10 +1770,6 @@ video {
 
 .border-2 {
   border-width: 2px;
-}
-
-.border-\[0px\] {
-  border-width: 0px;
 }
 
 .border-x {
@@ -1849,7 +1841,7 @@ video {
 }
 
 .bg-banner {
-  background-image: url('/images/banner.png');
+  background-image: url('images/banner.png');
 }
 
 .decoration-slice {
@@ -1982,9 +1974,19 @@ video {
   padding-right: 20px;
 }
 
+.px-\[21px\] {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pl-\[20px\] {
@@ -2065,6 +2067,10 @@ video {
 
 .text-\[72px\] {
   font-size: 72px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-\[400\] {
@@ -2601,6 +2607,24 @@ video {
 @media (min-width: 640px) {
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:inline {
+    display: inline;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 }
 

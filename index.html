@@ -11,7 +11,7 @@
 
 <!-- npx tailwindcss -i ./input.css -o ./output.css --watch -->
 
-<body class="font-[Poppins]">
+<body class="font-[Poppins] px-3">
 
   <header class="max-w-[1170px] mx-auto">
 
@@ -21,18 +21,20 @@
         <img src="images/logo2.png" alt="loading">
       </div>
 
-      <div class="flex gap-[37px] items-center">
+      <div class="flex gap-[37px] items-center hidden lg:flex">
         <p>Home</p>
         <p>Services <i class="ri-arrow-right-wide-line"></i></p>
         <p>Cases <i class="ri-arrow-right-wide-line"></i></p>
         <p>Blog <i class="ri-arrow-right-wide-line"></i></p>
         <p>Contact Us <i class="ri-arrow-right-wide-line"></i></p>
+
       </div>
 
-      <div>
+      <div class="hidden lg:flex">
         <button class="bg-[#B68C5A] py-[10px] px-[21px] rounded-[8px] font-[600] text-[18px] text-[#FFFFFF]">Free
           Consultation</button>
       </div>
+      <i class="ri-menu-line text-[30px] items-center lg:hidden"></i>
 
     </nav>
 
