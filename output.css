@@ -741,6 +741,18 @@ video {
   margin-top: 80px;
 }
 
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
+.ml-\[none\] {
+  margin-left: none;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -844,6 +856,18 @@ video {
   height: 550px;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.max-h-\[550px\] {
+  max-height: 550px;
+}
+
+.min-h-\[550px\] {
+  min-height: 550px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -854,6 +878,10 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[1170px\] {
@@ -1864,6 +1892,18 @@ video {
           box-decoration-break: clone;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -1997,6 +2037,18 @@ video {
   padding-right: 280px;
 }
 
+.pr-\[100px\] {
+  padding-right: 100px;
+}
+
+.pl-\[10px\] {
+  padding-left: 10px;
+}
+
+.pl-\[none\] {
+  padding-left: none;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2071,6 +2123,10 @@ video {
 
 .text-\[30px\] {
   font-size: 30px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-\[400\] {
@@ -2159,6 +2215,14 @@ video {
 
 .leading-\[85px\] {
   line-height: 85px;
+}
+
+.leading-\[70px\] {
+  line-height: 70px;
+}
+
+.leading-\[60px\] {
+  line-height: 60px;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
@@ -2605,8 +2669,46 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:ml-\[10px\] {
+    margin-left: 10px;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mt-\[none\] {
+    margin-top: none;
+  }
+
+  .md\:ml-\[10px\] {
+    margin-left: 10px;
+  }
+
+  .md\:h-\[550px\] {
+    height: 550px;
+  }
+
+  .md\:pr-\[280px\] {
+    padding-right: 280px;
+  }
+
+  .md\:pl-\[none\] {
+    padding-left: none;
+  }
+
+  .md\:text-center {
+    text-align: center;
+  }
+
+  .md\:text-\[72px\] {
+    font-size: 72px;
+  }
+
+  .md\:leading-\[85px\] {
+    line-height: 85px;
   }
 }
 
@@ -2625,6 +2727,10 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-\[550px\] {
+    height: 550px;
   }
 }
 
