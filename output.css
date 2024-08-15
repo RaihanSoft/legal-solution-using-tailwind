@@ -912,6 +912,22 @@ video {
   width: 1200px;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[150px\] {
+  width: 150px;
+}
+
 .max-w-\[1170px\] {
   max-width: 1170px;
 }
@@ -2160,6 +2176,10 @@ video {
 
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-\[400\] {
